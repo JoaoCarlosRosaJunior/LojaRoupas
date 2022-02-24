@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'lojaapp',
-    'channels'
+    #'channels'
 ]
 
 MIDDLEWARE = [
@@ -70,7 +70,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'lojaRoupas.wsgi.application'
-ASGI_APPLICATION = 'lojaRoupas.asgi.application'
+#ASGI_APPLICATION = 'lojaRoupas.asgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
